@@ -1,0 +1,151 @@
+
+@media all {
+    *{ 
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: linear-gradient(to right, rgb(2, 107, 49),rgb(52, 240, 177));
+    }
+    
+    header{
+        background-color: rgb(2, 165, 65);
+        height: 100px;
+        width: 100%;
+        
+    }
+    #span{
+        float: right;
+        width: 30%;
+        height: 100px;
+        background-color: rgb(232, 219, 243);
+    }
+    #h1{
+        float: left;
+        line-height: 100px;
+        color: rgb(10, 0, 0);
+        padding: 0 15px;
+    }
+    #img{
+        height: 100%;
+        border-radius: 50%;
+        float: right;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right:20px;
+        font-size: 30px;
+        padding: 20px;
+        line-height: 100px;
+    
+    
+    }
+     nav a:hover{
+        background-color: rgb(245, 246, 247);
+        padding: 10px;
+        color: rgb(14, 12, 11);
+        padding: 35px;
+       
+       
+    } 
+    nav{
+        width: 70%;
+        display: inline-block;
+        text-align: center;
+    
+    }
+    main{
+        width: 100%;
+        background-color: rgb(1, 57, 59);
+        float: right;
+        height: 550px;
+    }
+    aside{
+        background-color: rgb(243, 252, 247);
+        width: 30%;
+        height: 550px;
+        float: left;
+        text-align: center;
+    }
+    aside img{
+        width: 90%;
+        height: 85px;
+        border-bottom:5px solid rgb(15, 1, 2)aqua;
+        padding: 15px 0px;
+        border-bottom: 2px solid rgb(136, 2, 2);
+    
+        
+    }
+    #contact,#contacts,#contactss{
+        width: 100%;
+        
+        justify-content: center;
+        
+    }
+    #contact img,#contacts img, #contactss img{
+        width: 25px;
+        height:20px ;
+    }
+    #contact img:hover{
+        width: 35%;
+        height:35px ;
+    }
+    #contacts img:hover{
+        width: 35%;
+        height:35px ;
+    }
+    #contactss img:hover{
+        width: 35%;
+        height:35px ;
+    }
+    #article{
+        width: 70%;
+        height: 550px;
+        background-color:  rgb(135, 240, 175);
+        float: right;
+        position: relative;
+        
+        
+    }
+    #box{
+        width: 400px;
+        height: 180px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgb(0, 14, 14);
+        color: azure;
+        text-align: center;
+    
+    }
+    #box h1{
+        border-bottom: 2px solid yellow;
+        padding: 12px;
+    }
+    #box p{
+        padding: 18px;
+        font-size: 20px;
+    }
+}
+@media only screen and( min-width:228px) and ( max-width:800px){
+    
+    #span{
+        width: 100%;
+        background-color: aliceblue;
+
+    }
+    #img{
+        justify-content: center;
+    }
+    #h1{
+        text-align: center;
+    }
+
+}
+
+
+
+
